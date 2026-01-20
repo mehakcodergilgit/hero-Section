@@ -1,0 +1,93 @@
+*{
+    margin: 0%; padding: 0%;
+}
+header{ background-color: white;
+    width: 100%; height: 15vh; display: flex; justify-content: center;align-items: center;
+}
+nav{
+    width: 90%; height: 90%; display: flex; justify-content:space-between; align-items: center;
+}
+.header_div1{
+    display: flex; justify-content:center; align-items: center; gap: 10px;
+}
+.header_div2{
+    display: flex; justify-content:center; align-items: center; gap: 20px;
+}
+a{  
+    text-decoration: none; color: black; padding-left: 40px;margin-right: 20px; text-decoration: blue;
+}
+Section{
+    width: 100%; height: 100vh; background-color:rgb(231, 231, 255);
+    display: flex; justify-content: center; align-items: center;
+}
+.hero_main_div{
+    width: 90%; height: 90%;
+    display: flex;justify-content: space-between;align-items: center;
+}
+.maindiv_child_1{
+     width: 48%;height: 100%;
+     display: flex; flex-direction: column;justify-content: space-between; align-items: center;
+}
+.child_1_child_a{
+    width: 100%; height: 70%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 48px;
+    font-weight: 600; color:black; line-height: 1.2;  margin: 20px 40px 10px 0px;
+}
+span{
+    color: blueviolet;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif; font-size: 16px;
+    color:black; line-height: 1.5;  margin: 20px 40px 40px 0px;
+}
+button{
+    border: none; color: white; background-color:blueviolet;
+    padding: 15px 50px; border-radius: 30px; 
+}
+.hero_child1 p{
+    font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400;
+    color:rgb(27, 27, 27); line-height: 1.9; max-width: 520px;
+}
+.child_1_child_b{
+     width: 100%; height: 25%;
+     display: flex; justify-content: center; align-items: top;
+}
+.child_b_main_child{
+    width: 100%; height: 70%;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.main_child_child_1,.main_child_child_2, .main_child_child_3{
+    width: 32%; height: 100%;
+}
+h2{
+ text-align: center; color:black;  
+font-family: Arial, Helvetica, sans-serif; font-size: 25px;
+}
+.par_1{
+  text-align: center;
+}
+.maindiv_child_2{
+    width: 48%; height: 100%; display: flex; 
+    justify-content: center; align-items: center;
+}
+.child_2_child_A{
+    background-image: url(../images/anime/loges/girls/watch\ girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100vw;
+    width: 100%; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    background-color: white; border-radius: 1000px; border-bottom: 5px solid blue; border-right:5px solid blue ;
+}
+.child_2_childB{
+    width: 60px; height: 60px; background-color: blueviolet; position: relative; border-radius: 100%; left: 310px; bottom: 100px;
+}
+.child_2_childC{
+    width: 60px; height: 60px; background-color: blue; position: relative; border-radius: 100px; right: 270px;
+}
+.child_2_childD{
+    width: 60px; height: 60px; background-color: palevioletred; position: relative; border-radius: 100%; top: 220px; left: 100px;
+}
